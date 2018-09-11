@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">KotlinTraineeApp</string>
+    <string name="google_maps_key">AIzaSyBqCIj7Z3DR_-aVRQwmYIp9r4BewLmxivY</string>
+
+    <string name="txt_yes">YES</string>
+    <string name="txt_no">NO</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_select_image_gallery">Select from gallery</string>
+    <string name="txt_select_image">Select Image</string>
+    <string name="txt_take_from_camera">Take from camera</string>
+    <string name="txt_complete_action_using">Complete action using</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_submit">Submit</string>
+
+    <string name="msg_logout">Are you sure you want to logout?</string>
+
+    <string name="err_something_wrong">Something went wrong.</string>
+</resources>

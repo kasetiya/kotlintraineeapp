@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activities.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_medium_padding">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/small_medium_margin"
+            android:clickable="true"
+            android:src="@drawable/ic_user" />
+
+        <EditText
+            android:id="@+id/edt_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_photo"
+            android:layout_marginBottom="@dimen/small_medium_margin"
+            android:hint="Enter first name"
+            android:inputType="text"
+            android:textSize="@dimen/txt_large" />
+
+        <EditText
+            android:id="@+id/edt_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_first_name"
+            android:layout_marginBottom="@dimen/small_medium_margin"
+            android:hint="Enter last name"
+            android:inputType="text"
+            android:textSize="@dimen/txt_large" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_last_name"
+            android:layout_marginBottom="@dimen/small_medium_margin"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/txt_large" />
+
+        <EditText
+            android:id="@+id/edt_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_email"
+            android:layout_marginBottom="@dimen/small_medium_margin"
+            android:hint="Enter mobile number"
+            android:inputType="number"
+            android:textSize="@dimen/txt_large" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_mobile"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/small_medium_margin"
+            android:background="@color/colorPrimary"
+            android:text="Update"
+            android:textColor="@color/myWhite" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
